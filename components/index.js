@@ -29,6 +29,7 @@ import BmTile from './layers/Tile.vue'
 import BmTraffic from './layers/Traffic.vue'
 import BmBoundary from './others/Boundary.vue'
 import BmAutoComplete from './others/AutoComplete.vue'
+import PcstoreAutoComplete from './others/PcstoreAutoComplete.vue'
 
 import BmlMarkerClusterer from './extra/MarkerClusterer.vue'
 import BmlLushu from './extra/Lushu.vue'
@@ -76,6 +77,7 @@ export default {
     Vue.component('bm-traffic', BmTraffic)
 
     Vue.component('bm-auto-complete', BmAutoComplete)
+    Vue.component('pcstore-auto-complete',PcstoreAutoComplete)
     Vue.component('bm-boundary', BmBoundary)
   }
 }
@@ -87,7 +89,8 @@ export {
   BmContextMenu, BmContextMenuItem,
   BmLocalSearch, BmTransit, BmWalking, BmDriving, BmBus,
   BmTile, BmTraffic,
-  BmBoundary, BmAutoComplete
+  BmBoundary, BmAutoComplete 
+  , PcstoreAutoComplete
 }
 
 export {
